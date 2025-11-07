@@ -1,20 +1,21 @@
 # Desafio de Automação Digital: Gestão de Peças (UniFECAF)
 
-[cite_start]Este projeto é um protótipo em Python desenvolvido para a disciplina de Algoritmos e Lógica de Programação, focado em resolver um desafio de automação industrial[cite: 5].
+Este projeto é um protótipo em Python desenvolvido para a disciplina de Algoritmos e Lógica de Programação, focado em resolver um desafio de automação industrial.
 
-[cite_start]O sistema simula o controle de qualidade e armazenamento de peças em uma linha de montagem [cite: 7][cite_start], automatizando a inspeção manual que anteriormente gerava atrasos e falhas.
+O sistema simula o controle de qualidade e armazenamento de peças em uma linha de montagem, automatizando a inspeção manual que anteriormente gerava atrasos e falhas.
 
 ## Funcionalidades
 
-[cite_start]O script `gestao_pecas.py` apresenta um menu interativo  com as seguintes opções:
+O script `gestao_pecas.py` apresenta um menu interativo  com as seguintes opções:
 
-1.  [cite_start]**Cadastrar nova peça** [cite: 47][cite_start]: Recebe os dados da peça (peso, cor, comprimento) [cite: 10] e a avalia.
-2.  [cite_start]**Listar peças aprovadas/reprovadas**[cite: 48]: Exibe um resumo de todas as peças processadas.
-3.  [cite_start]**Remover peça cadastrada**: Permite ao usuário remover uma peça (aprovada ou reprovada) do sistema pelo seu ID.
-4.  [cite_start]**Listar caixas fechadas** [cite: 50][cite_start]: Mostra as caixas que atingiram a capacidade máxima de 10 peças.
-5.  [cite_start]**Gerar relatório final** [cite: 51][cite_start]: Apresenta um dashboard consolidado com o total de peças aprovadas [cite: 19][cite_start], reprovadas (com motivos)  [cite_start]e o número de caixas utilizadas[cite: 21].
+1. **Cadastrar nova peça** : Recebe os dados da peça (peso, cor, comprimento) e a avalia.
+2. **Listar peças aprovadas/reprovadas**: Exibe um resumo de todas as peças processadas.
+3. **Remover peça cadastrada**: Permite ao usuário remover uma peça (aprovada ou reprovada) do sistema pelo seu ID.
+4. **Listar caixas fechadas** : Mostra as caixas que atingiram a capacidade máxima de 10 peças.
+5. **Gerar relatório final** : Apresenta um dashboard consolidado com o total de peças aprovadas, reprovadas (com motivos)e o número de caixas utilizadas.
+0. **Sair do sistema** : Sai do sistema.
 
-## [cite_start]Como Rodar o Programa [cite: 54]
+## Como Rodar o Programa
 
 1.  **Pré-requisitos**:
     * Ter o Python 3 instalado em sua máquina.
@@ -38,6 +39,25 @@
 4.  **Navegue pelo Menu**:
     O menu interativo aparecerá no terminal. Digite o número da opção desejada e pressione Enter.
 
-## [cite_start]Exemplos de Entradas e Saídas [cite: 54]
+## Exemplos de Entradas e Saídas
 
-### Exemplo 1: Cadastrando uma Peça APROVADA
+### Exemplo: Cadastrando uma Peça APROVADA
+
+--- Sistema de Gestão Industrial (v1.0) ---
+1. Cadastrar nova peça
+2. Listar peças aprovadas/reprovadas
+3. Remover peça cadastrada
+4. Listar caixas fechadas
+5. Gerar relatório final
+0. Sair
+Escolha uma opção: 1
+
+--- 1. Cadastrar Nova Peça ---
+Digite o peso (g): 95
+Digite a cor (azul/verde/outra): azul
+Digite o comprimento (cm): 17
+
+[SUCESSO] Peça ID 1 APROVADA.
+Peça ID 1 adicionada à Caixa 1 (Peças na caixa: 1/10)
+
+
