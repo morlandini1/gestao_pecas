@@ -41,7 +41,7 @@ O script `gestao_pecas.py` apresenta um menu interativo  com as seguintes opçõ
 
 ## Exemplos de Entradas e Saídas
 
-### Exemplo: Cadastrando uma Peça APROVADA
+### Exemplo 1: Cadastrando uma Peça APROVADA
 
 --- Sistema de Gestão Industrial (v1.0) ---
 1. Cadastrar nova peça
@@ -60,4 +60,30 @@ Digite o comprimento (cm): 17
 [SUCESSO] Peça ID 1 APROVADA.
 Peça ID 1 adicionada à Caixa 1 (Peças na caixa: 1/10)
 
+### Exemplo 2: Cadastrando uma Peça REPROVADA
 
+Escolha uma opção: 1
+
+--- 1. Cadastrar Nova Peça --- Digite o peso (g): 90 Digite a cor (azul/verde/outra): vermelho Digite o comprimento (cm): 15
+
+[FALHA] Peça ID 2 REPROVADA. Motivos: Peso fora do padrão, Cor inválida
+
+### Exemplo 3: Gerando Relatório
+
+Escolha uma opção: 5
+
+--- 5. Gerar Relatório Final --- Total de Peças Processadas: 2 Total de Peças APROVADAS: 1 Total de Peças REPROVADAS: 1
+
+Motivos de Reprovação:
+
+Por Peso: 1 peças
+
+Por Cor: 1 peças
+
+Por Comprimento: 0 peças
+
+Gerenciamento de Caixas:
+
+Total de caixas utilizadas: 1
+
+Peças na caixa atual (Caixa 1): 1/10
