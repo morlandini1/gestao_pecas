@@ -8,12 +8,12 @@ O sistema simula o controle de qualidade e armazenamento de peças em uma linha 
 
 O script `gestao_pecas.py` apresenta um menu interativo  com as seguintes opções:
 
-1. **Cadastrar nova peça** : Recebe os dados da peça (peso, cor, comprimento) e a avalia.
-2. **Listar peças aprovadas/reprovadas**: Exibe um resumo de todas as peças processadas.
-3. **Remover peça cadastrada**: Permite ao usuário remover uma peça (aprovada ou reprovada) do sistema pelo seu ID.
-4. **Listar caixas fechadas** : Mostra as caixas que atingiram a capacidade máxima de 10 peças.
-5. **Gerar relatório final** : Apresenta um dashboard consolidado com o total de peças aprovadas, reprovadas (com motivos)e o número de caixas utilizadas.
-0. **Sair do sistema** : Sai do sistema.
+1 **Cadastrar nova peça** : Recebe os dados da peça (peso, cor, comprimento) e a avalia.
+2 **Listar peças aprovadas/reprovadas**: Exibe um resumo de todas as peças processadas.
+3 **Remover peça cadastrada**: Permite ao usuário remover uma peça (aprovada ou reprovada) do sistema pelo seu ID.
+4 **Listar caixas fechadas** : Mostra as caixas que atingiram a capacidade máxima de 10 peças.
+5 **Gerar relatório final** : Apresenta um dashboard consolidado com o total de peças aprovadas, reprovadas (com motivos)e o número de caixas utilizadas.
+0 **Sair do sistema** : Sai do sistema.
 
 ## Como Rodar o Programa
 
