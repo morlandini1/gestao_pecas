@@ -44,12 +44,12 @@ O script `gestao_pecas.py` apresenta um menu interativo  com as seguintes opçõ
 ### Exemplo 1: Cadastrando uma Peça APROVADA
 
 --- Sistema de Gestão Industrial (v1.0) ---
-1. Cadastrar nova peça
-2. Listar peças aprovadas/reprovadas
-3. Remover peça cadastrada
-4. Listar caixas fechadas
-5. Gerar relatório final
-0. Sair
+1 Cadastrar nova peça
+2 Listar peças aprovadas/reprovadas
+3 Remover peça cadastrada
+4 Listar caixas fechadas
+5 Gerar relatório final
+0 Sair
 Escolha uma opção: 1
 
 --- 1. Cadastrar Nova Peça ---
